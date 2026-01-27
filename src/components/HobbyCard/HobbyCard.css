@@ -1,0 +1,22 @@
+.card {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 14px;
+  padding: 14px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.card-title {
+  margin: 0 0 6px 0;
+  font-size: 18px;
+}
+
+.card-meta {
+  margin: 0 0 8px 0;
+  opacity: 0.9;
+}
+
+.card-status {
+  margin: 0;
+  font-size: 14px;
+  opacity: 0.9;
+}
