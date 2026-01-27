@@ -1,0 +1,21 @@
+.header {
+  padding: 16px;
+}
+
+.header-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.header-title {
+  margin: 0 0 12px 0;
+  font-size: 28px;
+}
+
+.banner {
+  height: 180px;
+  border-radius: 14px;
+  background-image: url("https://images.unsplash.com/photo-1520975958225-11d1b70f3f84?auto=format&fit=crop&w=1600&q=60");
+  background-size: cover;
+  background-position: center;
+}
