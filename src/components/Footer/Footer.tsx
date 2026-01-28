@@ -8,9 +8,9 @@ export function Footer({ developerName }: FooterProps) {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="footer">
+    <footer className="footer" style={{ borderTop: "1px solid rgba(255,255,255,0.12)" }}>
       <p className="footer-text">
-        © {year} – Built by {developerName}
+        © {year} – Utvecklad av {developerName}
       </p>
     </footer>
   );

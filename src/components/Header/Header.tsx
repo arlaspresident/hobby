@@ -1,4 +1,5 @@
 import "./Header.css";
+import bannerImg from "../../assets/yoga.jpg";
 
 type HeaderProps = {
   title: string;
@@ -10,7 +11,11 @@ export function Header({ title }: HeaderProps) {
       <div className="header-inner">
         <h1 className="header-title">{title}</h1>
 
-        <div className="banner" role="img" aria-label="Banner image"></div>
+        <img
+          className="banner"
+          src={bannerImg}
+          alt="Bannerbild för webbplatsen"
+        />
       </div>
     </header>
   );
