@@ -1,6 +1,7 @@
 import "./Header.css";
 import bannerImg from "../../assets/yoga.jpg";
 
+//props typ för header
 type HeaderProps = {
   title: string;
 };

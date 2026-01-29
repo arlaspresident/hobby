@@ -5,6 +5,7 @@ export type HobbyItem = {
   doneThisWeek: boolean; 
 };
 
+//lista med hobbies som renderas dynamiskt i gränssnittet
 export const hobbies: HobbyItem[] = [
   { id: 1, name: "Glute workout", minutes: 75, doneThisWeek: true },
   { id: 2, name: "Upper body", minutes: 60, doneThisWeek: false },
